@@ -1,0 +1,23 @@
+@MovieAPI_HostAddress = http://localhost:5140
+
+GET {{MovieAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{MovieAPI_HostAddress}}/api/movies/
+
+###
+GET {{MovieAPI_HostAddress}}/api/movies/1
+
+### 
+POST {{MovieAPI_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  "title": "The Matrix",
+  "releaseDate": "1999-03-31T00:00:00",
+  "genre": "Sci-Fi",
+  "price": 9.99
+}
+

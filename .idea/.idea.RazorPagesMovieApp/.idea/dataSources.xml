@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="RazorPagesMovieAppContext-6eff94f0-f161-4192-aea5-f4ce04a95356.db" uuid="0a9dd706-fdeb-4d63-9857-aef93e36b183">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/RazorPagesMovieApp/RazorPagesMovieAppContext-6eff94f0-f161-4192-aea5-f4ce04a95356.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
